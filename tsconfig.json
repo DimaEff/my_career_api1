@@ -17,6 +17,25 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "paths": {}
+    "paths": {
+      "@app/mongodb": [
+        "libs/mongodb/src"
+      ],
+      "@app/mongodb/*": [
+        "libs/mongodb/src/*"
+      ],
+      "@app/file-storage": [
+        "libs/file-storage/src"
+      ],
+      "@app/file-storage/*": [
+        "libs/file-storage/src/*"
+      ],
+      "@app/common": [
+        "libs/common/src"
+      ],
+      "@app/common/*": [
+        "libs/common/src/*"
+      ]
+    }
   }
 }
